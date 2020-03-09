@@ -45,3 +45,24 @@ body {
     argin-top: 25px; 
     padding: 15px 30px;
 }
+
+#what  {
+    text-align: left;
+    color: #337888;
+}
+
+#why {
+    color: #337888;
+}
+
+#when {
+    color: white;
+}
+
+#who {
+    color: #337888;
+}
+
+#footer {
+    max-width: 70px;
+}
