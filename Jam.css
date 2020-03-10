@@ -6,10 +6,17 @@ body {
     url('img/texture.jpg');
     background-position: center 280px, left top;
     background-repeat: no-repeat, repeat-x;
-    background-size; 800px, auto;
-    font-family: 'Quicksand', sans-serif;
+    background-size: 800px auto;
+    font-family: system-ui;
+    word-spacing: 5px;
     margin: 0;
 }
+
+h1, h2, h3 {
+    text-align: center;
+    font-family: sans-serif;
+}
+
 
 #nav {
     background-color: #6B9; 
@@ -41,28 +48,58 @@ body {
     color: #FFF;
     cursor: pointer; 
     display: inline-block; 
-    font-weight: bold; m
-    argin-top: 25px; 
+    font-weight: bold; 
+    margin-top: 25px; 
     padding: 15px 30px;
 }
 
-#what  {
+
+
+#sponsor_logos {
+    max-width: 400px;
+}
+
+#what {
     text-align: left;
     color: #337888;
+    padding: 1.5em 20em 1.5em;
+    margin-top: 500px;
+    background-color: #d2f9e8CC;  
 }
+
+
 
 #why {
     color: #337888;
+    padding: 1.5em 20em 1.5em;
+    background-color: #adeed6;
 }
 
+#where {
+    background-image: url('img/map.gif');
+    background-size: 100%;
+    color: #98004C;
+    padding: 110px 430px 360px;
+    text-align: end;
+}
+
+    
 #when {
     color: white;
+    padding: 1.5em 20em 1.5em;
+    background-image: url('img/wires.png');
+    background-color: #289793;
+    background-size: 50%;
 }
+
+
 
 #who {
     color: #337888;
+    padding: 1.5em 20em 1.5em;
+    background-color: #E5E5E5;
 }
 
 #footer {
-    max-width: 70px;
+    max-width: 80px;
 }
